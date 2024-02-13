@@ -8482,7 +8482,7 @@ h1, h2, h3, h4, h5,
           background: #fff; }
 
 .bg-light {
-  background: #f7f6f2 !important; }
+  background: #90EE90 !important; }
 
 .bg-primary {
   background: #82ae46; }
@@ -8491,7 +8491,7 @@ h1, h2, h3, h4, h5,
   background: #ffe6eb !important; }
 
 .bg-color-1 {
-  background: #e4b2d6; }
+  background: #e4b2d; }
 
 .bg-color-2 {
   background: #dcc698; }
@@ -8514,7 +8514,7 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #82ae46;
+    background: #154734;
     border: 1px solid #82ae46;
     color: #fff; }
     .btn.btn-primary:hover {
@@ -8652,6 +8652,7 @@ h1, h2, h3, h4, h5,
   display: block;
   width: 100%;
   margin-bottom: 30px;
+  border-radius: 25px;
   position: relative;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -8665,7 +8666,8 @@ h1, h2, h3, h4, h5,
   .product .img-prod {
     position: relative;
     display: block;
-    overflow: hidden; }
+    overflow: hidden;
+     }
     .product .img-prod .overlay {
       position: absolute;
       top: 0;
@@ -9121,7 +9123,7 @@ h1, h2, h3, h4, h5,
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       -ms-border-radius: 0;
-      border-radius: 0;
+      border-radius: 25px;
       font-size: 12px;
       background: #82ae46 !important; }
       .subscribe-form .form-group .submit:hover {
@@ -9197,6 +9199,7 @@ textarea.form-control {
   background: #3c312e; }
 
 .ftco-footer {
+  background-color:#90EE90;
   font-size: 14px;
   padding: 7em 0;
   color: #000000; }
@@ -9786,6 +9789,7 @@ textarea.form-control {
   border: 1px solid #ccc;
   font-size: 11px; }
   .tagcloud a:hover {
+    background-color: green;
     border: 1px solid #000; }
 
 .comment-form-wrap {
